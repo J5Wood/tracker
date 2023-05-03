@@ -1,8 +1,10 @@
+import Link from "next/link";
+
 function Nav() {
   return (
     <div>
-      <a href="/">Home</a>
-      <a href="/about">About</a>
+      <Link href="/">Home</Link>
+      <Link href="/about">About</Link>
     </div>
   );
 }
